@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T06:40:29.343Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="lvaEq6h1cXOacdHXn9gw" version="24.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-28T06:53:35.522Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="kC0bVHqLcLo1qMuXtE-z" version="24.0.4" type="github">
   <diagram name="第 1 页" id="v797rGbqXaPuHr1xUrjF">
-    <mxGraphModel dx="3080" dy="1762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2772" dy="1586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -74,22 +74,22 @@
         <mxCell id="fXVo95FK3dkVd09ffdzB-16" value="调整隐含层至输出层之间的连接权值及输出层各神经元的偏置" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="250" y="1105" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fXVo95FK3dkVd09ffdzB-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fXVo95FK3dkVd09ffdzB-17" target="fXVo95FK3dkVd09ffdzB-18">
+        <mxCell id="fXVo95FK3dkVd09ffdzB-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fXVo95FK3dkVd09ffdzB-17" target="fXVo95FK3dkVd09ffdzB-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fXVo95FK3dkVd09ffdzB-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fXVo95FK3dkVd09ffdzB-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fXVo95FK3dkVd09ffdzB-17" value="调整输入层至隐含层之间的连接权值及隐含层各神经元的偏置" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="250" y="1196" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fXVo95FK3dkVd09ffdzB-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fXVo95FK3dkVd09ffdzB-18" target="fXVo95FK3dkVd09ffdzB-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fXVo95FK3dkVd09ffdzB-18" value="调整输入层至隐含层之间的连接权值及隐含层各神经元的偏置" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="250" y="1286" width="260" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="fXVo95FK3dkVd09ffdzB-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fXVo95FK3dkVd09ffdzB-19" target="fXVo95FK3dkVd09ffdzB-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fXVo95FK3dkVd09ffdzB-19" value="随机选择一组未选过的数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="fXVo95FK3dkVd09ffdzB-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="fXVo95FK3dkVd09ffdzB-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fXVo95FK3dkVd09ffdzB-19" value="更新学习数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="250" y="1377" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fXVo95FK3dkVd09ffdzB-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fXVo95FK3dkVd09ffdzB-21" target="fXVo95FK3dkVd09ffdzB-23">
@@ -99,7 +99,7 @@
           <mxGeometry x="250" y="1559" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fXVo95FK3dkVd09ffdzB-22" value="训练结束" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="250" y="1740" width="260" height="60" as="geometry" />
+          <mxGeometry x="315" y="1743" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fXVo95FK3dkVd09ffdzB-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fXVo95FK3dkVd09ffdzB-23" target="fXVo95FK3dkVd09ffdzB-22">
           <mxGeometry relative="1" as="geometry" />
@@ -114,10 +114,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fXVo95FK3dkVd09ffdzB-40" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="380" y="1533" width="60" height="26" as="geometry" />
+          <mxGeometry x="380" y="1536" width="60" height="26" as="geometry" />
         </mxCell>
         <mxCell id="fXVo95FK3dkVd09ffdzB-41" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="384" y="1714" width="60" height="26" as="geometry" />
+          <mxGeometry x="384" y="1717" width="60" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
